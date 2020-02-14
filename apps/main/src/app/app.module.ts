@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { UmdSharedModule, UmdModule } from '@wb-umd-test/umd';
+import { WhiteboardModule } from '@wb-umd-test/whiteboard';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     HttpClientModule,
     UmdModule,
-    UmdSharedModule.forRoot()
+    UmdSharedModule.forRoot(),
+    WhiteboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
