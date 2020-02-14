@@ -1,0 +1,6 @@
+{
+    "test": {
+        "name": "TestModule",
+        "path": "/assets/test/test.umd.js"
+    }
+}

@@ -10,5 +10,18 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "main": {
+      "tags": []
+    },
+    "main-e2e": {
+      "tags": []
+    },
+    "whiteboard": {
+      "tags": []
+    },
+    "umd": {
+      "tags": []
+    }
+  }
 }

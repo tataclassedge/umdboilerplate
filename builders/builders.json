@@ -1,0 +1,9 @@
+{
+    "builders": {
+        "template-builder": {
+            "implementation": "./template-builder",
+            "schema": "./template-builder/schema.json",
+            "description": "Template Builder"
+        }
+    }
+}

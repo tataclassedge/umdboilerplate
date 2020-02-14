@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@wb-umd-test/whiteboard": ["libs/whiteboard/src/index.ts"],
+      "@wb-umd-test/umd": ["libs/umd/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
